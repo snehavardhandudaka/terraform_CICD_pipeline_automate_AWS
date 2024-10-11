@@ -1,0 +1,8 @@
+variable "sg" {
+  
+}
+
+variable "subnet" {
+
+  
+}
