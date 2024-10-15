@@ -1,5 +1,5 @@
 resource "aws_instance" "server" {
-    ami = "ami-0fff1b9a61dec8a5f"
+    ami = "ami"
     instance_type = "t2.micro"
     subnet_id = var.subnet
     security_groups = [var.sg]
